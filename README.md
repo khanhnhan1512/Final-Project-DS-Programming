@@ -30,7 +30,6 @@
 - Question 1: What makes song popular?
 
 - Question 2: Which makes Taylor Swift's songs become well-known and attract billions of people around the world
-- Question 2:
 
 - Question 3:
 
