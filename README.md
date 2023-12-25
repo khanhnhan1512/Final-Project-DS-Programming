@@ -9,7 +9,7 @@
 | #        | Họ tên            |
 | -------- | ----------------- |
 | 21127664 | Trần Đại Niên     |
-| ...      | Nguyễn Khánh Nhân |
+| 21127657     | Nguyễn Khánh Nhân |
 
 ### II. Project Information:
 
