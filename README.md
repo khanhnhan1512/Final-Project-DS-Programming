@@ -56,3 +56,8 @@ Our group will use `Trello` to manage the process of the project: `assign tasks`
 #### **_05. Detail Implementation_** 👀
 
 - Github: https://github.com/khanhnhan1512/Final-Project-DS-Programming/tree/main
+
+#### **_06. Reflection:_** 📝
+
+#### **_07. References:_** 📚
+- [Use `Spotify` to find missing keys](https://www.kaggle.com/code/dreygaen/investigating-the-most-popular-spotify-songs#%F0%9F%8F%86-What-Does-It-Take-To-Top-the-Spotify-Charts-?)
