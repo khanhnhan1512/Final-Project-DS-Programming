@@ -27,21 +27,29 @@
 #### **_02. Data exploration and Preprocessing:_**
 
 - Understand basic information about dataset
-- Preprocessing data: handle missing values, outliers, abnormal values
-- Plotting and get insights
+- Understand the meaning of each column
+- Preprocessing data: handle missing values, outliers, incorrect values.
+    - With missing values: we use `KNN Imputer` to fill missing values.
+    - With outliers: we use `IQR` to detect and remove outliers if necessary.
+    - For incorrect values: we will remove artist's name or track's name that contains special characters.
+- We divide the dataset into 2 parts: `numerical data` and `categorical data`.
+    - For `numerical` data: we will observe the distribution of each column and their descriptive statistics. We also check if there is any missing value in these columns.
+    - For `categorical` data: we will also observe the distribution of values in these columns. We also check if there is any missing value in these columns.
+- Finally, we will check the `correlation` between columns in the dataset to see if there is any relationship between them. We will use `heatmap` to visualize the correlation matrix. For more details, we also use `joint plot` and `scatter plot` to visualize the relationship between 2 most correlated columns.
+- In this project, our group use many different kinds of chart for visualization to get insights about the dataset: `bar chart`, `histogram`, `KDE plot`, `box plot`, `scatter plot`, `joint plot`, `3D plot`, `pie chart`, `line chart`,...
 
 #### **_03. Meaningful questions:_**
 
-- Question 1: What makes song popular? 📈
-
-- Question 2: Which makes Taylor Swift's songs become well-known and attract billions of people around the world? ️🎤
-
-- Question 3: How has music evolved over the years? 📈
-
-- Question 4:In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝
-
+❓ Question 1: What makes song popular? 📈 <br>
+✅**ANSWER:** <br>
+❓ Question 2: Which makes Taylor Swift's songs become well-known and attract billions of people around the world? ️🎤 <br>
+✅**ANSWER:** <br>
+❓ Question 3: How has music evolved over the years? 📈 <br>
+✅**ANSWER:** <br>
+❓ Question 4:In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝 <br>
+✅**ANSWER:** <br>
 #### **_04. Planning:_**
-
+Our group will use `Trello` to manage the process of the project: `assign tasks`, `track progress` and `ensure that the project is completed on time`.
 - Trello: https://trello.com/b/q4LXHImb/21khdlfinalprojectdoublen
 
 #### **_05. Detail Implementation_**
