@@ -1,15 +1,20 @@
-# PROGRAMMING FOR DATA SCIENCE - FIT - HCMUS
+<div style="text-align: center; color: white; background-color: #559cff; font-weight: bold; padding: 20px" >
 
-## Final Project - ...
+<p style="font-size: 30px">️💻 PROGRAMMING FOR DATA SCIENCE - FIT - HCMUS ️💻</p>
+
+<p style="font-size: 25px">️🎶 Final Project - Analysis of Most Streamed Spotify Songs 2023 ️🎶</p>
+</div>
+
+
 
 ### I. Group Information:
 
 - Class ID: 21KHDL1
 
-| #        | Họ tên            |
+| ID        | Name            |
 | -------- | ----------------- |
-| 21127664 | Trần Đại Niên     |
-| ...      | Nguyễn Khánh Nhân |
+| 21127664 | Tran Dai Nien     |
+| 21127657     | Nguyen Khanh Nhan |
 
 ### II. Project Information:
 
@@ -27,13 +32,13 @@
 
 #### **_03. Meaningful questions:_**
 
-- Question 1: What makes song popular?
+- Question 1: What makes song popular? 📈
 
-- Question 2: Which makes Taylor Swift's songs become well-known and attract billions of people around the world
+- Question 2: Which makes Taylor Swift's songs become well-known and attract billions of people around the world? ️🎤
 
-- Question 3:
+- Question 3: How has music evolved over the years? 📈
 
-- Question 4:
+- Question 4:In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝
 
 #### **_04. Planning:_**
 
