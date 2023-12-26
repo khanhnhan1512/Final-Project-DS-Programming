@@ -10,6 +10,7 @@
 ### I. Group Information:
 
 - Class ID: 21KHDL1
+- Group name: Double N
 
 | ID        | Name            |
 | -------- | ----------------- |
@@ -18,13 +19,13 @@
 
 ### II. Project Information:
 
-#### **_01. Dataset:_**
+#### **_01. Dataset:_** 📖
 
 - **Link**: [Most Streamed Spotify Songs 2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/code?datasetId=3668746&sortBy=voteCount)
 - **Description**: This dataset contains a comprehensive list of the most famous songs of 2023 as listed on Spotify. The dataset offers a wealth of features beyond what is typically available in similar datasets. It provides insights into each song's attributes, popularity, and presence on various music platforms.
 - **License**: The owner stated `"Other (specified in description)"` but did not mention it in the description section. However, this dataset is a `general public data set` on Kaggle, and below the description, the author expressed gratitude for support through upvotes. Therefore, this dataset is provided to the community for `research and learning purposes`, and within the scope of our course, we can use this dataset for our final project.
 
-#### **_02. Data exploration and Preprocessing:_**
+#### **_02. Data exploration and Preprocessing:_** 🕵️🔧
 
 - Understand basic information about dataset
 - Understand the meaning of each column
@@ -38,7 +39,7 @@
 - Finally, we will check the `correlation` between columns in the dataset to see if there is any relationship between them. We will use `heatmap` to visualize the correlation matrix. For more details, we also use `joint plot` and `scatter plot` to visualize the relationship between 2 most correlated columns.
 - In this project, our group use many different kinds of chart for visualization to get insights about the dataset: `bar chart`, `histogram`, `KDE plot`, `box plot`, `scatter plot`, `joint plot`, `3D plot`, `pie chart`, `line chart`,...
 
-#### **_03. Meaningful questions:_**
+#### **_03. Meaningful questions:_** ❓
 
 ❓ Question 1: What makes song popular? 📈 <br>
 ✅**ANSWER:** <br>
@@ -48,10 +49,10 @@
 ✅**ANSWER:** <br>
 ❓ Question 4:In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝 <br>
 ✅**ANSWER:** <br>
-#### **_04. Planning:_**
+#### **_04. Planning:_** 📅
 Our group will use `Trello` to manage the process of the project: `assign tasks`, `track progress` and `ensure that the project is completed on time`.
 - Trello: https://trello.com/b/q4LXHImb/21khdlfinalprojectdoublen
 
-#### **_05. Detail Implementation_**
+#### **_05. Detail Implementation_** 👀
 
 - Github: https://github.com/khanhnhan1512/Final-Project-DS-Programming/tree/main
