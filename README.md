@@ -26,6 +26,21 @@
 
 #### **_02. Project Structure:_** 📂
 
+```
+data
+├── processed_spotify-2023.csv
+└── spotify-2023.csv
+img
+└── owner_expressed.jpg
+notebook
+├── 01_Data_Collection.ipynb
+├── 02_Data_Exploration_and_Preprocessing.ipynb
+├── 03-Question_1.ipynb
+├── 04-Question_2.ipynb
+├── 05-Question_3.ipynb
+└── 06-Question_4.ipynb
+```
+
 #### **_03. Data exploration and Preprocessing:_** 🕵️🔧
 
 - Understand basic information about dataset
@@ -35,7 +50,7 @@
   - With outliers: we use `IQR` to detect and remove outliers if necessary.
   - For incorrect values: we will remove artist's name or track's name that contains special characters.
 - We divide the dataset into 2 parts: `numerical data` and `categorical data`.
-  - For `numerical` data: we will observe the distribution of each column and their descriptive statistics. We also check if there is any missing value in these columns.
+  - For `numerical` data: we will observe the distribution of each column and their descriptive statistics. Then we will check if there is any missing value in these columns.
   - For `categorical` data: we will also observe the distribution of values in these columns. We also check if there is any missing value in these columns.
 - Finally, we will check the `correlation` between columns in the dataset to see if there is any relationship between them. We will use `heatmap` to visualize the correlation matrix. For more details, we also use `joint plot` and `scatter plot` to visualize the relationship between 2 most correlated columns.
 - In this project, our group use many different kinds of chart for visualization to get insights about the dataset: `bar chart`, `histogram`, `KDE plot`, `box plot`, `scatter plot`, `joint plot`, `3D plot`, `pie chart`, `line chart`,...
@@ -78,19 +93,19 @@
 
     - 📝 After investigate by plotting and analyzing her songs, we come to the conclusion:
 
-        1. Taylor Swift is **versatile artist**: perform several genres of music and perform them well
+        1. Taylor Swift is **versatile artist**: perform several genres of music and perform them well.
 
-        2. `Blank Space` is the most popular songs of her
+        2. `Blank Space` is the most popular songs of her.
 
-        3. The **average streams** of her songs is remarkable compare to other famous artists
+        3. The **average streams** of her songs is remarkable compare to other famous artists.
 
-        4. The `released day`, `released month` are factor that we need to consider as many artists choosed this date to released his/her song(include Taylor)
+        4. The `released day`, `released month` are factor that we need to consider as many artists choosed this date to released his/her song (include Taylor).
 
         5. The way Taylor compose her songs is diverse, some songs are high in one properties but low other properties. However, that song still can reach us in some way.
 
-        6. Her songs' rank are very high in multiple platform(Spotify, Apple, Deezer). Most of them are in top 10 and some of them are in Top 1
+        6. Her songs' rank are very high in multiple platform (Spotify, Apple, Deezer). Most of them are in top 10 and some of them are in Top 1.
 
-        7. Average song of playlists of all of her songs are also very high(in Top 5 songs)
+        7. Average song of playlists of all of her songs are also very high (in Top 5 songs).
 
 - 📌 Best factors that we can find from Taylor Swift's best songs:
 
@@ -109,8 +124,26 @@
 
 ❓ Question 3: How has music evolved over the years? 📈 <br>
 ✅**ANSWER:** <br>
-❓ Question 4:In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝 <br>
+
+📌 Analyzing how the music evolved will help us understand the trend of music and the taste of listeners, based on this we can make songs that are more suitable for the listeners. After analyzing, we come up with some conclusions about the trend of music over the years:
+- The average `BPM` of songs has fluctuated over the years. But in the last 10 years, it has generally remained stable at around `110-130`.
+- `Danceability`, `valence` and `energy` have shown a upward trend over the years. This means that songs are becoming more and more `danceable`, `happy` and `energetic`.
+- On the other hand, `acousticness`, `instrumentalness`, `liveness` and `speechiness` have shown a downward trend over the years or not changed much. This means that songs are becoming less and less `acoustic`, `instrumental`, `live` and `spoken`. <br>
+
+❓ Question 4: In the top 5 artists with the highest number of streams on Spotify, what are the similarities and differences in the features of their songs?🔝 <br>
+
 ✅**ANSWER:** <br>
+
+📌 After analyzing, we found the similarities and differences in the features of the songs of the top 5 artists with the highest number of streams on `Spotify`. Based on these similarities and differences, it will be very helpful when you want to create a song and want it to be the most popular possible, here are some guidelines you should follow to maximize your chances of success: 
+- The `C#` key is the most popular and most successful one for listeners. But not all artists prefer to use this key in their songs. `The Weeknd` and `Bad Bunny` have the same high proportion of `C#` in their key songs. `Ed Sheeran` `Taylor Swift` and `Harry Styles` seem not to prefer `C#` in their key songs.
+- Using the Major mode is preferable, as it is the most popular and most successful mode on Spotify. All 5 artists have a high proportion of `major` in their `mode` songs.
+- `BPM` of all 5 artists' songs is around `120`. This is indicated that songs with `bpm` around `120` will be more popular.
+- All the song of these 5 artists have a very high average `danceability` (more than `60%`). So your song needs to share a minimum of `danceability` to be among the most popular ones. A minimum of `60%` is recommended.
+- Not like what we think `Positivity is the key, be positive in the song and it will have a higher chance of success`. `Valence` in these 5 artists' songs is not very high but their songs are still very popular. So `valence` is not a very important factor to make a song popular.
+- The average `energy` of all 5 artists is around `60%`. So this means that songs with more `energy` will be more popular.
+- The `speechiness` of all 5 artists' songs is very low (less than `10%`). It is indicated that nowadays people prefer songs with less `speechiness`, they prefer songs with more `rhythm` and `melody`.
+
+
 
 ### **III. Planning:\_** 📅
 
@@ -123,7 +156,30 @@ Our group will use `Trello` to manage the process of the project: `assign tasks`
 - Github: https://github.com/khanhnhan1512/Final-Project-DS-Programming/tree/main
 
 ### **V. Reflection:\_** 📝
+❌ Difficulties:
+- Nien:
+  - Find hard to find the attributes that contribute to the most meaning for plotting the chart
+  - The analysing process is not very detail enough, need to learn more
+- Nhan:
+  - Having difficulty coming up with interesting and meaningful questions to answer.
+  - In terms of handling incorrect data, I have only been able to handle it in the simplest way, without finding a specific approach to thoroughly solve the problem. I haven't found a way to fix incorrect data instead of just deleting it. <br>
+
+✅ What we have learned:
+- Nien:
+  - Learn how to use `KNN Imputer` to fill missing values.
+  - Learn how to implement `exploration and preprocessing data` in a `data science project`.
+- Nhan:
+  - Learn many plotting techniques and how to use them to visualize data.
+  - Learn how to use many important libraries for `data science` such as `numpy`, `pandas`, `matplotlib`, `seaborn`,...
+
+⌛ What we will do in the future:
+- Use more advanced techniques to handle incorrect data.
+- Using machine learning algorithms to predict the popularity of a song based on its attributes.
+- Make recommendations for artists to make their songs more popular.
+
 
 ### **VI. References:\_** 📚
 
 - [Use `Spotify` to find missing keys](https://www.kaggle.com/code/dreygaen/investigating-the-most-popular-spotify-songs#%F0%9F%8F%86-What-Does-It-Take-To-Top-the-Spotify-Charts-?)
+- [Refer to graph plotting and implementation ideas](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/code?datasetId=3668746&sortBy=voteCount&fbclid=IwAR0N7HijDpvV7bWlNifDgK5Rq6cO_idYx-puZl3xSm-OK11AVGoQNduESBM)
+- [How to use Joint Plot](https://www.javatpoint.com/joint-plot-in-python)
