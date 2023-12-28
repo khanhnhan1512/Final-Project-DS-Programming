@@ -168,6 +168,7 @@ Our group will use `Trello` to manage the process of the project: `assign tasks`
 - Nien:
   - Learn how to use `KNN Imputer` to fill missing values.
   - Learn how to implement `exploration and preprocessing data` in a `data science project`.
+  - How to use `github` to manage the project with teammates.
 - Nhan:
   - Learn many plotting techniques and how to use them to visualize data.
   - Learn how to use many important libraries for `data science` such as `numpy`, `pandas`, `matplotlib`, `seaborn`,...
